@@ -12,7 +12,7 @@ int main(){
             if(a[i][j]==1)
             {
                 r = abs(3-i); c= abs(3-j);      // 3-i or 3-j is to calculate the moves for bringing 1 to center
-            }
+            }                                   //  abs()  is used to get absolute value. |3-i|
         }
     }
     cout<<r+c<<endl;
